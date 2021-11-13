@@ -1,4 +1,4 @@
-[Instruções/Instructions](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0/hub/huddle-landing-page-with-a-single-introductory-section-GHnBk6DFy)
+[Instruções/Instructions](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0)
 
 [Resultado/Result](https://leonardoth.github.io/Huddle-landing-page-with-a-single-introductory-section/)
 
