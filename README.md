@@ -1,3 +1,7 @@
+[Instruções/Instructions](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0/hub/huddle-landing-page-with-a-single-introductory-section-GHnBk6DFy)
+
+[Resultado/Result](https://leonardoth.github.io/Huddle-landing-page-with-a-single-introductory-section/)
+
 This challenge will build on the other two and take it up a notch. You'll need to think about how best to position and space the elements out on the page.
 
 ### Brief
