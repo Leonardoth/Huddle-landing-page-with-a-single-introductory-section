@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+    --headings-font-family: 'Poppins', sans-serif;
+    --body-font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(assets/images/bg-mobile.svg);
+    background-size: 375px 300px;
+    background-repeat: no-repeat;
+    background-color:var(--Violet);
+    font-family: var(--body-font-family);
+    color: white;
+    width: 100%;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    align-self: flex-start;
+    width: 150px;
+}
+
+.mockup{
+    margin-top: 40px;
+    width: 300px;
+}
+.main__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 28px;
+    font-family: var(--headings-font-family);
+    line-height: 28px;
+}
+
+p{
+    margin-top: -5px;
+    font-size: 15px;
+    max-width: 80%;
+    text-align: center;
+}
+button{
+    color: var(--Violet);
+    background-color: white;
+    border: none;
+    font-family: var(--headings-font-family);
+    border-radius: 20px;
+    font-weight: 600;
+    width: 200px;
+    height: 30px;
+
+}
+button:hover{
+    color: white;
+    background-color: var(--Soft-Magenta);
+    cursor: pointer;
+}
+i:hover{
+    border: 1px var(--Soft-Magenta);
+    color:var(--Soft-Magenta);
+    cursor: pointer;
+}
+.socials{
+    margin-top: 60px;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socials > i{
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 200;
+    padding: 5px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+
+@media (min-width: 1440px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-image: url(assets/images/bg-desktop.svg);
+        background-size: 1440px 1320px;
+        background-size: cover;
+    }
+    .logo{
+        width: 150px;
+        font-weight: 200;
+        margin-left: 50px;
+    }
+    body div{
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+    .mockup{
+        width: 1200px;
+    }
+    .main__div{
+        display: inline-block;
+        margin-left: 50px;
+        text-align: left;
+    }
+
+    .main__div h1,
+    .main__div p{
+        text-align: left;
+    }
+    .main__div h1{
+        width: 70%;
+        font-size: 30px;
+    }
+    .main__div p{
+        max-width: 85%;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .main__div button{
+        margin-top: 20px;
+        height: 50px;
+        border-radius: 50px;
+        box-shadow: 5px 5px 40px rgba(51, 51, 51, 0.8);
+    }
+
+    .socials{
+        position: absolute;
+        bottom: 30px;
+        right: 50px;
+        width: 200px;
+    }
+
+    .socials > i {
+        width: 20px;
+        height: auto;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    footer{
+        position: absolute;
+        bottom: 5px;
+    }
+
+    footer a,
+    footer a:visited{
+        color: var(--Soft-Magenta);
+        font-weight: 600;
+        font-family: var(--headings-font-family);
+        text-decoration: none;
+    }
+
+    button:hover{
+        color: white;
+        background-color: var(--Soft-Magenta);
+        cursor: pointer;
+    }
+    i:hover{
+        border: 1px solid var(--Soft-Magenta);
+        color:var(--Soft-Magenta);
+        cursor: pointer;
+    }
+}
